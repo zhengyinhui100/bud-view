@@ -1,0 +1,49 @@
+{
+  "name": "@xiaoge-fe/bud-view",
+  "version": "0.5.0",
+  "eggPlugin": {
+    "name": "budView"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "egg-view",
+    "bud",
+    "bud-view",
+    "art"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "description": "基于arttemplate的模块化的egg视图插件",
+  "scripts": {
+    "test": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint lib app config test",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod -w --prefix '~'",
+    "contributors": "ali-contributors"
+  },
+  "author": "xiaoge",
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "jquery": "^3.1.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "eslint": "2",
+    "eslint-config-egg": "2",
+    "should": "~8.3.1",
+    "supertest": "~1.2.0"
+  },
+  "homepage": "https://github.com/zhengyinhui100/bud-view",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengyinhui100/bud-view.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhengyinhui100/bud-view/issues"
+  }
+}
